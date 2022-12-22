@@ -1,0 +1,9 @@
+[submodule "src/submodules/imgui"]
+	path = src/submodules/imgui
+	url = https://github.com/Oblikovati/imgui.git
+[submodule "src/Oblikovati/Dependencies/imgui"]
+	path = src/Oblikovati/Dependencies/imgui
+	url = https://github.com/Oblikovati/imgui.git
+[submodule "src/Oblikovati/Dependencies/glfw"]
+	path = src/Oblikovati/Dependencies/glfw
+	url = https://github.com/Oblikovati/glfw.git
