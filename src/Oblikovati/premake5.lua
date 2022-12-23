@@ -82,6 +82,8 @@ project "Oblikovati"
             "QuartzCore.framework"
         }
         xcodebuildsettings {
+            ["GCC_INPUT_FILETYPE"] = "sourcecode.cpp.objcpp",
+            ["DEVELOPMENT_TEAM"] = "DHB699B52Z", -- TODO: You must set your own Apple Deployment Team
             ["MACOSX_DEPLOYMENT_TARGET"] = "11.0",
             ["PRODUCT_BUNDLE_IDENTIFIER"] = 'com.oblikovati',
             ["CODE_SIGN_STYLE"] = "Automatic",
