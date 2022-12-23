@@ -1,6 +1,7 @@
 #pragma once
 
 #include <spdlog/spdlog.h>
+#include <spdlog/fmt/ostr.h> //Log custom types
 #include <memory>
 
 namespace Oblikovati
