@@ -13,16 +13,24 @@ project "Oblikovati"
     {
         "*.h",
         "*.cpp",
+        "Core/**.h",
+        "Core/**.cpp",
+        "Events/**.h",
+        "Events/**.cpp",
+        "Util/**.h",
+        "Util/**.cpp"
     }
 
     includedirs
     {
+        "%{IncludeDir.SPDLOG}",
         "%{IncludeDir.GLFW}",
         "%{IncludeDir.ImGui}"
     }
 
     sysincludedirs
     {
+        "%{IncludeDir.SPDLOG}",
         "%{IncludeDir.GLFW}",
         "%{IncludeDir.ImGui}"
     }

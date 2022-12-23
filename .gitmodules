@@ -7,3 +7,6 @@
 [submodule "src/Oblikovati/Dependencies/glfw"]
 	path = src/Oblikovati/Dependencies/glfw
 	url = https://github.com/Oblikovati/glfw.git
+[submodule "src/Oblikovati/Dependencies/spdlog"]
+	path = src/Oblikovati/Dependencies/spdlog
+	url = https://github.com/gabime/spdlog.git

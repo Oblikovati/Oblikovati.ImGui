@@ -16,7 +16,6 @@ namespace Oblikovati
 
     void Application::Run()
     {
-        std::cout << "Oblikovati\n";
         m_imGuiLayer->Run();
     }
 }
